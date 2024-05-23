@@ -8,7 +8,7 @@ if (empty($_SESSION['user'])) {
   header('location:login.php');
   }
   
-
+    
 $id = $_POST['id'];
 if(empty($id)){
     header('location:index.php');
